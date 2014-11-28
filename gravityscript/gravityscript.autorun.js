@@ -2038,6 +2038,31 @@ $("embed").each(function() {
     }
 });	
 			
+$("iframe").each(function() {
+	if($(this).children().length < 1) {
+    	$(this).addClass("box2d");
+    	$(this).css("position", "relative");
+    	$(this).css("zIndex", "99");
+    }
+});	
+
+
+$("input").each(function() {
+	if($(this).children().length < 1) {
+    	$(this).addClass("box2d");
+    	$(this).css("position", "relative");
+    	$(this).css("zIndex", "99");
+    }
+});	
+
+$("ul").each(function() {
+	if($(this).children().length < 1) {
+    	$(this).addClass("box2d");
+    	$(this).css("position", "relative");
+    	$(this).css("zIndex", "99");
+    }
+});	
+
 			}
 			
 			
