@@ -19,8 +19,6 @@
  * are included and they just look like blobs of text
  */
 
-
-
 /* Based on Alex Arnell's inheritance implementation. */
 var Class = {
     create: function () {
